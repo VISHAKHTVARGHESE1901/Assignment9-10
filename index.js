@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ctx.moveTo(e.clientX - canvas.offsetLeft, e.clientY - canvas.offsetTop);
     }
 
-    // Event Listeners for drawing
+    // Event Listeners to draw
     canvas.addEventListener('mousedown', startPosition);
     canvas.addEventListener('mouseup', finishedPosition);
     canvas.addEventListener('mousemove', draw);
