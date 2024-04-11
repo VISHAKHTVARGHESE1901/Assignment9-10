@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         draw(e);
     }
 
-    function finishedPosition() {
+    function endPosition() {
         painting = false;
         ctx.beginPath();
     }
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Event Listeners to draw
     canvas.addEventListener('mousedown', startPosition);
-    canvas.addEventListener('mouseup', finishedPosition);
+    canvas.addEventListener('mouseup', endPosition);
     canvas.addEventListener('mousemove', draw);
 
     // Color buttons
