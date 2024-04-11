@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Event Listeners to draw
-    canvas.addEventListener('mouseDown', startPosition);
-    canvas.addEventListener('mouseUp', endPosition);
-    canvas.addEventListener('mouseMove', draw);
+    canvas.addEventListener('mousedown', startPosition);
+    canvas.addEventListener('mouseup', endPosition);
+    canvas.addEventListener('mousemove', draw);
 
     // Color buttons
     document.querySelectorAll('.btn-action').forEach(item => {
