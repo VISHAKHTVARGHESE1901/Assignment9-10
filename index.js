@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const ctx = canvas.getContext('2d');
     let painting = false;
     let brushSize = 5;
-    let color = '#000000'; // Default color is black
+    let color = '#F50057'; // Default color is black
 
     function startPosition(e) {
         painting = true;
