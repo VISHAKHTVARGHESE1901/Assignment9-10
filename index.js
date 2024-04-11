@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const canvas = document.getElementById('main');
     const ctx = canvas.getContext('2d');
     let painting = false;
-    let brushSize =4;
+    let brushSize =2;
     let color = '#F50057'; // Default color is Red
 
     function startPosition(e) {
